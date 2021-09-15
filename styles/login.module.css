@@ -1,0 +1,104 @@
+.container{
+
+    display: flex;
+    margin-top: 5rem;
+   justify-content:center;
+}
+.borders{
+    border: 0.5px solid rgb(197, 194, 194);
+    padding: 20px;
+}
+.logo{
+    margin-top: 10px;
+    display: flex;
+    justify-content: center;
+}
+.input input{
+    margin-top: 20px;
+    width: 300px;
+    padding: 5px;
+    font-family: 'Inter', sans-serif;
+}
+.input1 input{
+    font-family: 'Inter', sans-serif;
+    margin-top: 10px;
+    width: 300px;
+    padding: 5px;
+}
+          
+.forget{
+    margin-top: 10px;
+    color: rgb(4, 4, 71);
+    font-family: 'Inter', sans-serif;
+}
+.Login{
+    font-family: 'Inter', sans-serif;
+    margin-top: 10px;
+    color: white;
+    width: 300px;
+    height: 30px;
+    background-color: rgb(4, 4, 71);
+    padding: 5px;
+    display: flex;
+    justify-content: center;
+}
+.hr{
+   float: right;
+    width: 120px;
+   margin-left: 60px;
+  
+}
+.hr1{
+    float: right;
+    width: 120px;
+}
+.or{
+    margin-left: 140px;
+    font-family: 'Inter', sans-serif;
+    position: absolute;
+    margin-top: -5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.hrOr{
+    margin-top: 10px;
+}
+.SignUp{
+    font-family: 'Inter', sans-serif;
+    margin-top: 30px;
+    color:  rgb(4, 4, 71);
+    font-weight: 500;
+    width: 300px;
+    height: 30px;
+    background-color: rgb(183, 183, 184);
+    padding: 3px;
+    display: flex;
+    justify-content: center;
+}
+.footer{
+    position: absolute;
+    width: 100%;
+  height: 50px;
+  background-color: rgb(183, 183, 184);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  bottom: 0;
+  left: 0;
+}
+.footerName{
+    margin-left: -30px;
+}
+.footer a{
+    font-family: 'Inter', sans-serif;
+    justify-content: center;
+    margin-left: 30px;
+    font-size: 12px;
+}
+@media (max-width: 768px) {
+    .borders {
+     border:none
+    }
+  }
+  

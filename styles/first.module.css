@@ -1,0 +1,518 @@
+.nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color: rgb(255, 255, 255);
+    height: 80px;
+    box-shadow: 5px 10px rgb(0, 0, 0);
+
+}
+.nav ul{
+    display: flex;
+    flex-direction: row;
+    margin-right: 100px;
+}
+.nav ul {
+    margin-right: 50px;
+    
+   
+}
+.nav ul a{
+ 
+ margin-right: 10px;
+ padding: 10px 20px 10px 20px;
+ border-radius: 30px;
+}
+.nav ul .login {
+    border: 1px solid rgb(4, 4, 71);
+   }
+.menu a{
+   display: none;
+}
+.logo{
+    margin-left: -150px;
+    margin-top: 20px;
+}
+.PERSONAL{
+    border-bottom: 3px solid black;
+    margin-top: 20px;
+    margin-left:100px;
+    justify-content: center;
+    display: flex;
+}
+
+.dropdown{
+  display: none;
+    background-color: rgb(4, 4, 71);
+    width: 100%;
+    height: 150px;
+}
+.dropdown1{
+    background-color: rgb(4, 4, 71);
+    width: 100%;
+    height: 150px;
+}
+
+.Background{
+    position: absolute;
+    background-attachment: fixed;
+    background-position: center;
+    background-size: contain;  
+}
+.overLay{
+    position: absolute;
+    width: 100%;
+    height: 360px;
+    background-color: rgba(4, 4, 61, 0.356);
+    top:80px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    color: white;
+    
+}
+.FirstLine{
+   
+    font-family: 'Inter', sans-serif;
+    font-weight: 300;
+}
+.signFree{
+    background-color: rgb(4, 4, 61);
+    width: 300px;
+    height: 50px;
+    border-radius: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 5px;
+}
+.own h1{
+    font-family: 'Inter', sans-serif;
+    font-weight: 300;
+    font-size: 20px;
+    margin-top: 20px;
+}
+.own h1 a:hover{
+    color: blue;
+}
+.paypal {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+   
+    margin-top: 240px;
+}
+.paypal h1{
+    font-family: 'Inter', sans-serif;
+    font-weight: 700;
+    color: rgb(4, 4, 61);
+}
+.icon{
+    margin-top: 10px;
+}
+
+.Individual h1{
+    margin-top: 30px;
+    font-size: 25px;
+    font-family: 'Inter', sans-serif;
+    font-weight: 500;
+}
+.Find h1{
+    margin-top: -10px;
+    font-size: 15px;
+    font-family: 'Inter', sans-serif;
+    font-weight: 300;
+}
+.Learn{
+    margin-top: 10px;
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+    border-radius: 30px;
+    border: 1px solid rgb(4, 4, 61);
+    width: 150px;
+}
+.flex{
+    background-color: rgb(233, 233, 233);
+    width: 100%;
+    height: 700px;
+    margin-top: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.flex .connect{
+    margin-top: 20px;
+    font-family: 'Inter', sans-serif;
+    font-weight: 700;
+    color: rgb(4, 4, 61);
+}
+.buyers{
+    font-family: 'Inter', sans-serif;
+    font-weight: 200;
+    border-bottom: 1px solid black;
+    margin-top: 20px;
+    justify-content: center;
+    display: flex;
+}
+.buyers h1{
+    font-family: 'Inter', sans-serif;
+    font-weight: 500;
+    font-size: 25px;
+}
+.flexbox{
+    margin-top: 50px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-right: 20px;
+    
+}
+.flexbox div{
+    margin-left: 20px;
+}
+
+.flexbox1{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 400px;
+    height: 200px;
+}
+.flexbox1 h1{
+    font-family: 'Inter', sans-serif;
+    font-weight: 500;
+    font-size: 20px;
+}
+.flexbox2{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 400px;
+    height: 200px;
+}
+.flexbox2 h1{
+    font-family: 'Inter', sans-serif;
+    font-weight: 500;
+    font-size: 20px;
+}
+.flexbox3{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 400px;
+    height: 200px;
+}
+.flexbox3 h1{
+    font-family: 'Inter', sans-serif;
+    font-weight: 500;
+    font-size: 20px;
+}
+.line{
+    display: flex;
+    flex-direction: row;
+}
+.line .number{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100px;
+    height: 75px;
+    border: 1px solid rgb(194, 193, 193);
+    border-radius: 50px; 
+}
+.learnMore{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 200px;
+    height: 80px;
+    border: 1px solid black;
+    border-radius: 50px;
+    margin-top: 20px;
+   
+}
+.learnMore h1{
+    font-size: 25px;
+    font-family: 'Inter', sans-serif;
+    font-weight: 500;
+    font-size: 20px;
+
+}
+.flex2{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    height: 400px;
+    background-color: rgb(4, 4, 61);
+}
+.flex2 h1{
+   color: white;
+   font-family: 'Inter', sans-serif;
+    font-weight: 300;
+    font-size: 25px;
+    margin-top: 50px;
+}
+.box{
+    display: flex;
+    flex-direction: row;
+   
+}
+ .box div{
+    margin-left: 50px;
+     width: 350px;
+     height: 100px;
+ }
+ .box1 .boxTop{
+     font-size: 25px;
+     font-weight: 300;
+     font-family: 'Inter', sans-serif;
+ }
+ .box1 .boxTop1{
+     margin-top: 20px;
+    font-size: 15px;
+    font-weight: 300;
+    font-family: 'Inter', sans-serif;
+}
+.box1 .boxTop2{
+    margin-top: 55px;
+   font-size: 15px;
+   font-weight: 500;
+   font-family: 'Inter', sans-serif;
+}
+.box2 .boxTop{
+    font-size: 25px;
+    font-weight: 300;
+    font-family: 'Inter', sans-serif;
+}
+.box2 .boxTop1{
+    margin-top: 20px;
+   font-size: 15px;
+   font-weight: 300;
+   font-family: 'Inter', sans-serif;
+}
+.box2 .boxTop2{
+   margin-top: 20px;
+  font-size: 15px;
+  font-weight: 500;
+  font-family: 'Inter', sans-serif;
+}
+.box3 .boxTop{
+    font-size: 25px;
+    font-weight: 300;
+    font-family: 'Inter', sans-serif;
+}
+.box3 .boxTop1{
+    margin-top: 20px;
+   font-size: 15px;
+   font-weight: 300;
+   font-family: 'Inter', sans-serif;
+}
+.box3 .boxTop2{
+   margin-top: 80px;
+  font-size: 15px;
+  font-weight: 500;
+  font-family: 'Inter', sans-serif;
+}
+.started {
+    background-color: rgb(233, 233, 233);
+    width: 100%;
+    height: 200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+    position: absolute;
+
+   
+
+}
+.started h1{
+    font-size: 25px;
+  font-weight: 500;
+  font-family: 'Inter', sans-serif;
+
+}
+.started .startedButton{
+   
+   background-color:rgb(4, 4, 61);;
+    width: 300px;
+    height: 50px;
+     display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 30px;
+}
+.startedButton a{
+    
+    color: white;
+    font-size: 15px;
+    font-weight: 700;
+    font-family: 'Inter', sans-serif;
+  
+}
+.footer{
+    position: absolute;
+    margin-top: 250px;
+    width: 100%;
+    height: 100px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.footerLink{
+    margin-left: 50px;
+}
+.footerLink a{
+    margin-left: 20px;
+    font-size: 15px;
+    color: rgb(43, 42, 42);
+}
+.footerImage{
+    margin-right: 50px;
+}
+.hr{
+    margin-top: 300px;
+    border: 0.5px dotted black;
+}
+
+
+
+
+
+
+
+@media (max-width: 768px) {
+    .nav ul .signup {
+     display:none
+    }
+    .PERSONAL {
+        display:none
+       }
+    .menu a{
+        display: block;
+        margin-left: 50px;
+        position: absolute;
+        margin-top: 20px;
+        border: 1px solid rgb(4, 4, 71);
+        border-radius: 30px;
+        padding: 10px 20px 10px 20px;
+    }
+    .logo{
+        margin-left: 180px;
+        margin-top: 30px;
+    }
+    .dropdown{
+  
+    display: none;
+    }
+    
+    .overLay{
+        height: 150px
+    }
+    .FirstLine{
+        margin-top: 20px;
+       font-size: 20px;
+    }
+    .signFree{
+        background-color: rgb(4, 4, 61);
+        width: 200px;
+        height: 50px;
+        border-radius: 30px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding-bottom: 5px;
+        font-size: 15px;
+    }
+    .own h1{
+        font-size: 12px;
+        margin-top: 5px;
+    }
+    .paypal h1{
+        margin-top: -200px;
+        font-family: 'Inter', sans-serif;
+        font-weight: 700;
+        color: rgb(4, 4, 61);
+        font-size: 20px;
+    }
+    .Individual h1{
+        margin-top: 30px;
+        font-size: 25px;
+        font-family: 'Inter', sans-serif;
+        font-weight: 200;
+    }
+    .Find h1{
+        margin-top: -10px;
+        font-size: 15px;
+        font-family: 'Inter', sans-serif;
+        font-weight: 200;
+    }
+    .flex{
+      
+        width: 100%;
+        height: 1000px;
+        position: absolute;
+    }
+    .flex .connect{
+        font-size: 25px;
+        margin-top: -40px;
+    }
+    .flexbox {
+      
+        display: flex;
+        flex-direction: column;
+        
+    }
+    .learnMore {
+        width: 200px;
+        height: 50px;
+
+    }
+    .flex2{
+        position: absolute;
+        margin-top: 1080px;
+        height: 900px;
+}    
+.box{
+    margin-top: -150px;
+    display: flex;
+    flex-direction: column;
+   
+}
+.box div{
+    margin-top: 150px;
+}
+.box .boxTop2{
+    margin-top: 30px;
+}
+
+.flex2 .connect{
+    font-size: 20px;
+
+}
+.started{
+    position: absolute;
+    margin-top: 1950px;
+}
+.footer{
+    position: absolute;
+    margin-top: 2050px;
+    height: 200px;
+}
+.footerImage{
+    display: none;
+}
+.footerLink{
+    margin-top: 150px;
+}
+}
