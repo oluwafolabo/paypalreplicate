@@ -1,9 +1,14 @@
 import Image from 'next/image'
-import PayPal from '../public/PayPal.png'
+import PayPal from '../public/logo.svg'
 import styles from "../styles/first.module.css"
 import Link from"next/link"
 import Head from"next/head"
 import Background from "../public/background.jpg"
+import Buyonline from '../public/buyonline_browser1.png'
+import Buyonline1 from '../public/buyonline_browser2.png'
+import Buyonline2 from '../public/buyonline_browser3.png'
+import Icon from '../public/icon1.png'
+import Homepage from '../public/homepage-hero.jpg'
 const First = () => {
     const itCloseUp=()=>{
 
@@ -43,8 +48,9 @@ const First = () => {
 
                 </div>
                 <div className={styles.dropdown1}>
-
-                     <Image src={Background} alt="logo" width={1500} height={400}className={styles.Background} />
+                    <div className={styles.background1}>
+                        <Image src={Homepage} alt="logo" width={0}height={480} className={styles.Background} />
+                    </div>
                      <div className={styles.overLay}>
                          <h1 className={styles.FirstLine}>The simpler, safer way to pay online.</h1>
                          <div className={styles.signFree}>
@@ -62,9 +68,9 @@ const First = () => {
                {/*bod*/}
 
                <div className={styles.paypal}>
-                   <h1> Paypal is for everyone who pays is online</h1>
+                   <h6> Paypal is for everyone who pays is online</h6>
                    <div className={styles.icon} onClick={itCloseUp}>
-                        <Image src={PayPal} alt="logo" width={90} height={30}/>
+                        <Image src={Icon} alt="logo"/>
                     </div>
                     <div className={styles.Individual}>
                         <h1> Individuals</h1>
@@ -90,7 +96,7 @@ const First = () => {
                         {/* flexbox1*/}
                         <div className={styles.flexbox1}>
                             <div>
-                                <Image src={PayPal} alt="logo" width={90} height={30}/>
+                                <Image src={Buyonline} alt="logo"/>
                             </div>
                             <div className={styles.line}>
                                 <div className={styles.number}>
@@ -107,7 +113,7 @@ const First = () => {
                               {/* flexbox2*/}
                         <div className={styles.flexbox2}>
                             <div>
-                                <Image src={PayPal} alt="logo" width={90} height={30}/>
+                                <Image src={Buyonline1} alt="logo"/>
                             </div>
                             <div className={styles.line}>
                                 <div className={styles.number}>
@@ -122,7 +128,7 @@ const First = () => {
                          {/* flexbox3*/}
                          <div className={styles.flexbox3}>
                             <div className={styles.image}>
-                                <Image src={PayPal} alt="logo" width={90} height={30}/>
+                                <Image src={Buyonline2} alt="logo" />
                             </div>
                             <div className={styles.line}>
                                 <div className={styles.number}>

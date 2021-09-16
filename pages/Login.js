@@ -2,7 +2,7 @@ import styles from "../styles/login.module.css"
 import Head from"next/head"
 import Link from"next/link"
 import Image from 'next/image'
-import PayPal from '../public/PayPal.png'
+import PayPal from '../public/momgram.png'
 import First from "./First"
  export const Login = () => {
         const getInput =() =>{
@@ -21,7 +21,7 @@ import First from "./First"
 
             <form className={styles.borders}>
                 <div className={styles.logo}>
-                    <Image src={PayPal} alt="logo" width={90} height={30}/>
+                    <Image src={PayPal} alt="logo" width={30} height={40}/>
                 </div>
                 <div className={styles.input}>
                     <input id="text" type="Email" autoComplete="text" placeholder="Email or mobile number"/>

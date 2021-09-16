@@ -7,6 +7,8 @@
 .borders{
     border: 0.5px solid rgb(197, 194, 194);
     padding: 20px;
+        height: 600px;
+        border-radius: 10px;
 }
 .logo{
     margin-top: 10px;
@@ -15,37 +17,44 @@
 }
 .input input{
     margin-top: 20px;
-    width: 300px;
+    width: 400px;
+    height: 50px;
     padding: 5px;
     font-family: 'Inter', sans-serif;
+    font-size: 14px;
 }
 .input1 input{
     font-family: 'Inter', sans-serif;
     margin-top: 10px;
-    width: 300px;
+    width: 400px;
+    height: 50px;
+    font-size: 14px;
     padding: 5px;
 }
           
 .forget{
     margin-top: 10px;
-    color: rgb(4, 4, 71);
+    color: rgb(0, 112, 186);
     font-family: 'Inter', sans-serif;
+    font-weight: 500;
 }
 .Login{
     font-family: 'Inter', sans-serif;
-    margin-top: 10px;
+    margin-top: 20px;
     color: white;
-    width: 300px;
-    height: 30px;
-    background-color: rgb(4, 4, 71);
+    width: 400px;
+    height: 50px;
+    background-color: rgb(0, 112, 186);
     padding: 5px;
     display: flex;
     justify-content: center;
+    align-items: center;
+    border-radius: 25px;
 }
 .hr{
    float: right;
     width: 120px;
-   margin-left: 60px;
+   margin-left: 160px;
   
 }
 .hr1{
@@ -53,7 +62,7 @@
     width: 120px;
 }
 .or{
-    margin-left: 140px;
+    margin-left: 190px;
     font-family: 'Inter', sans-serif;
     position: absolute;
     margin-top: -5px;
@@ -66,25 +75,27 @@
 }
 .SignUp{
     font-family: 'Inter', sans-serif;
-    margin-top: 30px;
-    color:  rgb(4, 4, 71);
+    margin-top: 50px;
+    color:  rgb(0, 112, 186);
     font-weight: 500;
-    width: 300px;
-    height: 30px;
-    background-color: rgb(183, 183, 184);
+    width: 400px;
+    height:50px;
+    border: 1px solid rgb(0, 112, 186);
     padding: 3px;
+    border-radius: 25px;
     display: flex;
     justify-content: center;
+    align-items: center;
 }
 .footer{
     position: absolute;
     width: 100%;
   height: 50px;
-  background-color: rgb(183, 183, 184);
+  background-color: rgb(247, 249, 250);
   display: flex;
   justify-content: center;
   align-items: center;
-  bottom: 0;
+  margin-top: 630px;
   left: 0;
 }
 .footerName{
@@ -95,6 +106,8 @@
     justify-content: center;
     margin-left: 30px;
     font-size: 12px;
+    font-weight: 500;
+    color:rgb(44, 46, 47);
 }
 @media (max-width: 768px) {
     .borders {
