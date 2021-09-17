@@ -6,8 +6,10 @@
     background-color: rgb(255, 255, 255);
     height: 72px;
     box-shadow: 0 0 10px 1px rgb(0 0 0 / 20%), 0 0 10px 1px rgb(255 255 255 / 20%);
-  
+   position: absolute;
+    z-index: 10;
 
+    width: 100%;
 }
 .nav ul{
     display: flex;
@@ -17,6 +19,7 @@
 .nav ul {
     margin-right: 120px;
     margin-top: 20px;
+
 }
 .nav ul a{
  
@@ -81,21 +84,23 @@ nav ul .signup {
     height: 150px;
 }
 .dropdown1{
-    background-color: rgb(4, 4, 71);
+  
     width: 100%;
-    height: 150px;
+    height: 550px;
     
 
 }
-.Background1{
-    height: 400px;
+.background1{
+    position: absolute;
+    background-position: 60% center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    overflow: hidden;    
+    object-fit:fill;
+   
+    
 }
-.dropdown1 .Background{
-    margin-top: -1000px;
-}
-.Background{
- height: 100%;
-}
+
 .overLay{
     position: absolute;
     width: 100%;
@@ -152,8 +157,12 @@ nav ul .signup {
     justify-content: center;
     flex-direction: column;
     align-items: center;
-   
-    margin-top: 240px;
+   width: 100%;
+   height: 450px;
+   background-color: white;
+   position: relative;
+   margin-top: -30px;
+  
 }
 .paypal h6{
   color: rgb(44, 46, 47);
@@ -162,8 +171,7 @@ nav ul .signup {
     font-family:  pp-sans-big-light,Helvetica Neue,Arial,sans-serif;
     font-size: 2.857rem;
     letter-spacing: .02em;
-   
-   margin-top: 120px;
+ 
 }
 .icon{
     margin-top: -50px;

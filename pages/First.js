@@ -49,7 +49,7 @@ const First = () => {
                 </div>
                 <div className={styles.dropdown1}>
                     <div className={styles.background1}>
-                        <Image src={Homepage} alt="logo" width={0}height={480} className={styles.Background} />
+                        <Image src={Homepage} alt="logo" width={0} className={styles.Background} />
                     </div>
                      <div className={styles.overLay}>
                          <h1 className={styles.FirstLine}>The simpler, safer way to pay online.</h1>
